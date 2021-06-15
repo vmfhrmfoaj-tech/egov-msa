@@ -14,6 +14,7 @@ public class CustomerApiServiceImpl implements CustomerApiService{
 
     @Override
     public String getCustomerDetail(String customerId) {
+        // url call
         return restTemplate.getForObject("http://localhost:8082/customers/" + customerId, String.class);
     }
 }
