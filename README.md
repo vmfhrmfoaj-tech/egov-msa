@@ -7,10 +7,10 @@
 
 
 ```sh
-# catalog : ui project
+# catalog : ui service project
 cd ./catalog 
 
-# run - http://localhost:8080/
+# run - http://localhost:8081/
 ./mvnw spring-boot:run
 
 # api test - /catalogs/customerinfo/{id}
@@ -19,7 +19,7 @@ cd ./catalog
 
 
 ```sh
-# customers : api service
+# customers : api service project
 cd ./customers 
 
 # run - http://localhost:8082/
