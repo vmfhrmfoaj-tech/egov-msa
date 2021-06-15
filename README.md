@@ -16,3 +16,15 @@ cd ./catalog
 # api test - /catalogs/customerinfo/{id}
 # eg) http://localhost:8081/catalogs/customerinfo/347
 ```
+
+
+```sh
+# customers : api service
+cd ./customers 
+
+# run - http://localhost:8082/
+./mvnw spring-boot:run
+
+# api test - /customers/{id}
+# eg) http://localhost:8082/customers/7865
+```
