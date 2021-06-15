@@ -12,4 +12,7 @@ cd ./catalog
 
 # run - http://localhost:8080/
 ./mvnw spring-boot:run
+
+# api test - /catalogs/customerinfo/{id}
+# eg) http://localhost:8081/catalogs/customerinfo/347
 ```
