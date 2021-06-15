@@ -28,6 +28,3 @@ cd ./customers
 # api test - /customers/{id}
 # eg) http://localhost:8082/customers/7865
 ```
-
-a
-b
