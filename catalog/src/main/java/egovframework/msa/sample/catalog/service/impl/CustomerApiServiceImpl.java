@@ -17,8 +17,7 @@ public class CustomerApiServiceImpl implements CustomerApiService{
     @Override
     @HystrixCommand(fallbackMethod = "getCustomerDetailFallback")
     public String getCustomerDetail(String customerId) {
-        // url call
-        return restTemplate.getForObject("http://localhost:8082/customers/" + customerId, String.class);
+        return restTemplate.getForObject("http://customer/customers/" + customerId, String.class);
     }
 
     public String getCustomerDetailFallback(String customerId, Throwable ex){
