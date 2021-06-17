@@ -28,3 +28,10 @@ cd ./customers
 # api test - /customers/{id}
 # eg) http://localhost:8082/customers/7865
 ```
+
+```sh
+# Eureka : service-registry project
+cd ./eureka-server
+
+# run - http://localhost:8761/
+./mvnw spring-boot:run
